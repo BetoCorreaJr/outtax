@@ -1,0 +1,30 @@
+.menuflag {
+    display: inline-block;
+    cursor: pointer;
+    width: 70px;
+    height: 120px;
+    background: $blue;
+    -webkit-box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+    box-shadow: 0 0 15px 0 rgba(0,0,0,0.15);
+    .h-menu {
+        .line {
+            margin: 0 17px 6px;
+            display: block;
+            width: 35px;
+            height: 5px;
+            background: white;
+        }
+        .line:first-child {
+            margin-top: 75px;
+        }
+        .line:last-child {
+            margin-bottom: 0;
+        }
+    }
+}
+.logo {
+    display: inline-block;
+    margin-left: 25px;
+    color: black;
+}
